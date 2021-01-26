@@ -8,10 +8,10 @@ function Hero (props) {
                 <h1>Brandon Myers</h1>
                 <h2>Software Engineer</h2>
                 <h2>Web Developer</h2>
-                <Button animated>
+                <Button animated href='mailto:brandonRmyers1512@gmail.com' target='_blank' >
                     <Button.Content visible>Contact Me</Button.Content>
                     <Button.Content hidden>
-                        <Icon name='mail' />
+                        <Icon name='mail' id='contact-me-button' />
                     </Button.Content>
                 </Button>
             </div>

@@ -10,6 +10,7 @@
 }
 
 .text-overlay {
+
   position: absolute;
   height: 100%;
   width: 100%;
@@ -46,6 +47,10 @@ i {
   padding: 20px;
 }
 
+#footer-icon {
+  padding: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .ui.black.ribbon.label {
     padding: 10px; 
@@ -57,3 +62,7 @@ i {
   }
 }
 
+#contact-me-button {
+  padding: 0px;
+  font-size: 2rem;
+}

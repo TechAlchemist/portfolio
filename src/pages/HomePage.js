@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 function HomePage(props) {
     return (
-        <div>
+        <div className='app'>
             <Header />
             <Projects />
             <Bio />
