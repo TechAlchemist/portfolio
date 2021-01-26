@@ -25,7 +25,7 @@ function Projects (props) {
                     content={'Recipe Finder'} 
                     />
                         <ProjectDescription 
-                        description={'Recipe Finder uses Spoonacular API to search for recipes and return modals to the user to view recipes. It also features a rudimentary login system to favorite recipes to view later. '}
+                        description={'Recipe Finder uses Spoonacular API to search for recipes and return modals to the user to view recipes. It also features a rudimentary login system with sessions to favorite recipes to view later. '}
                         tech={['HTML5', 'CSS3', 'JavaScript', 'AJAX', 'PHP', 'MySQL']}
                         singleRepoLink={'https://github.com/TechAlchemist/recipe-finder'}
                         />
@@ -44,7 +44,7 @@ function Projects (props) {
                     {/* SERVICE ALCHEMY */}
                     <ProjectImage source={serviceAlchemy} link={'https://crm-service-alchemy.herokuapp.com/'} content={'Service Alchemy'} />
                         <ProjectDescription 
-                            description={'Service Alchemy is a Customer Relationship Management and IT ticketing service platform. Customers can login and submit incidents or service requests. Engineers can grab tickets from a queue'}
+                            description={'Service Alchemy is a Customer Relationship Management and IT ticketing service platform. Customers can login and submit incidents or service requests. Engineers can grab tickets from a queue and mark them as complete. A survey system is in place for customers to rate closed tickets. '}
                             tech={['MongoDB', 'Express', 'React', 'NodeJS', 'Materialize', 'CSS3']}
                             frontRepoLink={'https://github.com/TechAlchemist/serviceAlchemy-frontend'}
                             backRepoLink={'https://github.com/TechAlchemist/serviceAlchemy-backend'}
@@ -53,7 +53,7 @@ function Projects (props) {
                     {/* MONSTER CREATOR */}
                     <ProjectImage source={monsterCreator} link={'https://monster-client-frontend.herokuapp.com/'} content={'Monster Creator'} />
                         <ProjectDescription 
-                            description={'Monster Creator was a team of 3 people. I focused on the front-end creating the forms, validation, and presentation of a RESTful API served from Ruby on Rails. '}
+                            description={'Monster Creator was created with a team of 3 people, as a way to practice collaboration. I focused on the front-end creating the forms, validation, and presentation of a RESTful API served from Ruby on Rails. '}
                             tech={['React', 'PostgreSQL', 'Ruby', 'Ruby on Rails', 'CSS3', 'Bootstrap 4']}
                             frontRepoLink={'https://github.com/TechAlchemist/monster_client'}
                             backRepoLink={'https://github.com/TechAlchemist/monster_api'}
