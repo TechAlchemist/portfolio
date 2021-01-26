@@ -6,20 +6,19 @@ function ProjectImage ({source, link, content}) {
         <Container>
       
             <Image
-                label={{
-                as: 'a',
-                color: 'black',
-                content: content,
-            
-                ribbon: true,
-                }}
                 src={source}
                 as='a'
                 href={link}
                 target='_blank'
                 rounded
+
+                label={{
+                color: 'black',
+                content: content,
+                ribbon: true,
+                }}
+
             />
-          
         </Container>
     )
 }
