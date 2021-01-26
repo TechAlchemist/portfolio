@@ -1,4 +1,4 @@
-import { Container, Divider, Icon, Header, Image } from 'semantic-ui-react';
+import { Container, Divider, Icon, Header } from 'semantic-ui-react';
 // import ProfilePic from '../assets/profile-pic.jpg';
 import SkillList from '../components/SkillList';
 
