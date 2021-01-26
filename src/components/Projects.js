@@ -11,7 +11,7 @@ import birdsCalifornia from '../assets/birds-of-california.png';
 function Projects (props) {
     return (
         <Container>
-                 <Divider horizontal>
+                 <Divider horizontal style={{marginTop: 100, marginBottom: 50}} > 
                     <Header as='h1'>
                         <Icon name='terminal' />
                         Projects

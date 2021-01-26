@@ -4,7 +4,7 @@ function Footer (props) {
     return (
  
         <Segment vertical>
-            <Divider horizontal>
+            <Divider horizontal style={{marginTop: 100, marginBottom: 50}}>
                 <Header as='h1'>
                     <Icon name='mail' />
                     Get in Touch
