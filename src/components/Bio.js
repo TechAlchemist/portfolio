@@ -1,4 +1,6 @@
-import { Container, Divider, Icon, Header} from 'semantic-ui-react'
+import { Container, Divider, Icon, Header, Image } from 'semantic-ui-react';
+import ProfilePic from '../assets/profile-pic.jpg';
+import SkillList from '../components/SkillList';
 
 function Bio (props) {
     return (
@@ -9,12 +11,14 @@ function Bio (props) {
                     Biography
                 </Header>
             </Divider>
-            <h2> The Short </h2>
-            <p> I am silly boy hehe </p>
-            <hr />
-            <h2> The Long </h2>
-            <p> Mwaheheheheheheheheheheheheheheheh Mwa hehehe Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis placeat expedita adipisci delectus dolore hic illo nisi, corrupti ducimus sit repudiandae quidem doloribus enim pariatur fuga voluptatem dicta alias eius. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit repellat tempore labore recusandae beatae, porro quos aliquam sint, sed quaerat debitis! Facere, repellat voluptate pariatur officia perspiciatis ipsa nulla recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, numquam esse, amet temporibus tenetur aliquam dolorum eveniet officiis delectus ipsa ipsum eos quidem voluptate aut. Cum quasi ad eos voluptates. </p>
-
+            <Image src={ProfilePic} size='medium' circular centered />
+                <Divider hidden />
+            <Container text>
+            <h3> Hello, my name is Brandon Robert Myers. I am a software engineer / web developer based in California. I love creating and building things with code.  My goal is to create efficient and reliable software, while always learning and growing. </h3> 
+            </Container>
+            <Divider horizontal />          
+            <SkillList />
+            <Divider horizontal />
       </Container>
     )
 }

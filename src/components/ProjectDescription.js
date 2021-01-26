@@ -24,12 +24,12 @@ function ProjectDescription({ tech, description, frontRepoLink, backRepoLink, si
                 {
                    frontRepoLink ||  backRepoLink ?
                         <Button.Group>
-                        <Button color="purple" href={frontRepoLink}> Frontend Repo</Button>
+                        <Button color='purple' href={frontRepoLink} target='_blank'> Frontend Repo</Button>
                         <Button.Or />
-                        <Button color="violet" href={backRepoLink}> Backend Repo </Button>
+                        <Button color='violet' href={backRepoLink} target='_blank'> Backend Repo </Button>
                         </Button.Group>
                         :
-                        <Button color="purple" href={singleRepoLink}>
+                        <Button color='purple' href={singleRepoLink} target='_blank'>
                             Repo
                         </Button>
                     

@@ -1,9 +1,10 @@
+import { Container } from 'semantic-ui-react'
+
 function Footer (props) {
     return (
-
-        <div>
+        <Container>
             <h1> Footer </h1>
-        </div>
+        </Container>
     )
 }
 
