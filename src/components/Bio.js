@@ -1,6 +1,6 @@
 import { Container, Divider, Icon, Header, Image} from 'semantic-ui-react';
 import SkillList from '../components/SkillList';
-import pic from './profile-pic.jpg';
+import pic from '../components/profile-pic.jpg';
 
 function Bio (props) {
     return (
