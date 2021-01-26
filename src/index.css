@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;1,600&display=swap');
 
-body, h3, h4, h5, .header, button {
+body, h1, h2, h3, h4, h5, p, .header, button {
     font-family: 'Chakra Petch', sans-serif !important;
 }
 
+h1, h2, a {
+    letter-spacing: 1px !important;
+}
