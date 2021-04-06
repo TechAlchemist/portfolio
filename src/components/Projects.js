@@ -2,11 +2,11 @@ import { Container, Divider, Icon, Header } from 'semantic-ui-react'
 import ProjectImage from '../components/ProjectImage';
 import ProjectDescription from '../components/ProjectDescription';
 
-import serviceAlchemy from '../assets/service-alchemy.png';
-import recipeFinder from '../assets/recipe-finder.png';
-import monsterCreator from '../assets/monster-creator.png';
-import fakebook from '../assets/fakebook.png';
-import birdsCalifornia from '../assets/birds-of-california.png';
+import serviceAlchemy from '../assets/service-alchemy.jpg';
+import recipeFinder from '../assets/recipe-finder.jpg';
+import monsterCreator from '../assets/monster-creator.jpg';
+import fakebook from '../assets/fakebook.jpg';
+import birdsCalifornia from '../assets/birds-of-california.jpg';
 
 function Projects (props) {
     return (
